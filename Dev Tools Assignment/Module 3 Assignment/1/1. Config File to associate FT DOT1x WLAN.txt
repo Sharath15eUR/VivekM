@@ -1,0 +1,16 @@
+ctrl_interface=DIR=/var/run/wpa_supplicant GROUP=netdev
+update_config=1
+country=IN
+
+network={
+    ssid="MADRISTA'S NETWORK_5GHz"
+    proto=RSN
+    key_mgmt=FT-EAP
+    pairwise=CCMP
+    group=CCMP
+    eap=PEAP
+    identity="VivekMunnaa"
+    password="r1e3a3l3"
+    priority=1
+    phase2="auth=MSCHAPV2"
+}
